@@ -1,1 +1,124 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin:  0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.secondaryBg {
+    background-color: #150303;;
+}
+.w-100 {
+    width : 100%;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Chivo",sans-serif;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: normal;
+}
+
+.o-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.border-radius {
+    border-radius: 5px;
+}
+.login-btn {
+    padding : 1rem 3rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fb0000;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Chivo",sans-serif;
+    box-shadow: 2px 2px 4px #ffff;
+}
+.login-btn:hover {
+    box-shadow: none;
+}
+.w-10 {
+    width: 10%;
+}
+.w-20 {
+    width: 20%
+}
+.w-80 {
+    width: 80%;
+}
+.w-50 {
+    width: 50%;
+}
+.gap-3 {
+    gap:3%;
+}
+.home-header {
+    color:white ;
+    display:grid;
+    grid-template-columns: 45% 55%;
+    // padding: 3%;
+
+    .company-quote{
+        padding-right: 2%;
+        padding-left: 5%;
+        font-size : 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .dream {
+        font-size: 1.4rem;
+        padding-right: 2%;
+        padding-left: 5%;
+    }
+}
+.dash {
+    width:7rem;
+    height:0.5rem;
+    background: #FB0000;
+    margin-bottom: 2rem;
+}
+.main-login-container {
+    padding:.0rem .5rem; 
+}
+
+
+
+@media (max-width:900px) {
+    .home-header {
+        display: block;
+    }
+    .quote-container {
+        padding:6rem 0;
+        text-align: center ;
+    }
+}
+@media (max-width:400px) {
+    .home-header{
+
+        .company-quote {
+            font-size: 1.7rem;
+            padding: 0rem;
+        }
+        .dream {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+    .dash {
+        height: .2rem;
+    }
+}
+

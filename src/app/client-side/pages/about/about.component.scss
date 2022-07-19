@@ -1,0 +1,51 @@
+.about-fx {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.about-text {
+    font-weight: 700;
+    font-size: 1.2;
+    text-align: center;
+    width:70%;
+    word-spacing: 3px;
+    line-height: 30px;
+
+}
+.all-division {
+    display:  grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 1.7rem;
+    padding:3%
+}
+.all-we-do {
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+}
+.all-we-do-text {
+    border-bottom: 2px solid black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1.5rem .5rem
+}
+
+
+@media (max-width:900px) {
+    .all-division {
+        display: block;
+    }
+}
+
+@media (max-width:400px) {
+    .all-we-do {
+        padding:1rem;
+        font-size:1rem;
+    }
+    .about-fx {
+        font-size: 1.2rem;
+    }
+}

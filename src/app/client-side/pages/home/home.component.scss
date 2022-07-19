@@ -1,0 +1,101 @@
+
+.mt{
+    margin-top: 2rem;
+}
+.mission-division {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.mission-content {
+    margin-top: 2rem;
+    padding : 3%;
+        .arrow-text {
+            color: #675E5E;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0;
+        }
+        .our-mission {
+            h1 {
+                text-align: center;
+                font-size : 1.8rem;
+                margin-bottom: 1rem;
+                font-weight: 700;
+            }
+            p {
+                font-weight: 400;
+                font-size: 1.2rem;
+                text-align: center;
+                letter-spacing: 1px;
+                word-spacing: 2.2px;
+            }
+        }
+}
+
+
+
+.gap{
+    gap:2%
+}
+.s-mt {
+    margin-top: 7px;
+}
+.all-division {
+    display:  grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 1.7rem;
+}
+.all-we-do {
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+}
+.all-we-do-text {
+    border-bottom: 2px solid black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1.5rem .5rem
+}
+.client-say {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.client-division {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+}
+.review-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    padding-right: 4em;
+}
+
+
+
+
+@media (max-width:900px) {
+    .mission-division {
+        display: block;
+    }
+    .all-division {
+        display: block;
+    }
+    .client-division{
+        display: block;
+    }
+}
+
+@media (max-width:400px) {
+    .all-we-do {
+        padding:1rem;
+        font-size:1rem;
+    }
+    .client-say {
+        font-size: 1rem;
+    }
+}

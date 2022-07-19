@@ -1,0 +1,95 @@
+.header {
+    color: white;
+    padding :2%  3%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: "Chivo",sans-serif;    
+    }
+    ul {
+        list-style-type: none;
+
+        li{
+            display: inline;
+            margin-left : 2rem; 
+            font-size: 1rem;
+            font-weight: 500;
+            font-family: "Chivo",sans-serif;
+            cursor: pointer;
+
+            .login-btn {
+                padding : 1rem 3rem;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                background: #fb0000;
+                color: white;
+                font-size: 1rem;
+                font-weight: 500;
+                font-family: "Chivo",sans-serif;
+                box-shadow: 2px 2px 4px #ffff;
+            }
+            .login-btn:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
+.left-align {
+    text-align: left;
+}
+.nav-end {
+    display: flex;
+    justify-content: start;
+}
+.toggle-menu {
+    display: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.tog-menu-bar {
+    background-color: #4c4c4c;
+    padding:.8rem .5rem;
+    color:white;
+    font-size:12px;
+    font-family: "Chivo",sans-serif;
+}
+.menu-list {
+    padding:.5rem .4rem;
+}
+.menu-list:hover {
+    color:#4c4c4c;
+    background-color: white;
+    border-radius:5px;
+}
+.media-menu {
+    display: none;
+}
+
+
+
+@media (max-width:900px) {
+    .nav-end{
+        display: none;
+    }
+    .toggle-menu {
+        display: block;
+        position: absolute;
+        right:1rem;
+    }
+    .header {
+        padding:1rem .5rem;
+        .logo {
+            font-size: 1rem;
+        }
+    }
+    .media-menu {
+        display: block;
+    }
+}
